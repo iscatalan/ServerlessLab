@@ -28,7 +28,7 @@
 
 **Tarea 4: Probar API en el navegador y CloudShell**
  
-- Para probar en GET en el navegador utiliza → invoke URL + /ruta GET + ?username=<nombre username> (tabla “Usuarios”)
+- Para probar en GET en el navegador utiliza → invoke URL + /ruta GET + ?username=  &lt;username&gt; (sacado de tabla “Usuarios”)
 - En el caso de POST, debes probarlo en el CloudShell del Management Console con los siguientes comandos:
 ```bash~
 curl -X POST \
