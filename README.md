@@ -1,4 +1,12 @@
-## Laboratorio Serverless (DynamoDB - Lambda - API Gateway)
+4) Es importante asociar el permiso de IAM creado en los pasos anteriores
+![ETL](https://raw.githubusercontent.com/iscatalan/LabGlue/refs/heads/main/LabGlue44.png)
+
+5) En esta etapa realizamos nuestro primer **custom transform** que nos permite escribir código propio para definir cómo queremos transformar los datos. Usaremos PySpark para transformar los datos de forma flexible, modificación o creación de columnas según necesitemos
+![ETL](https://raw.githubusercontent.com/iscatalan/LabGlue/refs/heads/main/LabGlue45.png)
+
+### [Descarga el script aquí](https://workshop-mo.s3.us-east-1.amazonaws.com/script_glue.py)
+
+
 
 
 **Objetivo General:** Aprender a integrar servicios de AWS como DynamoDB, Lambda y API Gateway en una arquitectura serverless que simula una API de usuarios. Se desarrollará una función Lambda conectada a DynamoDB, expuesta mediante rutas en API Gateway y se validará su funcionamiento utilizando los métodos GET y POST desde el navegador y CloudShell
